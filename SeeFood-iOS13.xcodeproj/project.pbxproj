@@ -13,6 +13,7 @@
 		0E995E362563AD1D0037A163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E995E342563AD1D0037A163 /* Main.storyboard */; };
 		0E995E382563AD200037A163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E995E372563AD200037A163 /* Assets.xcassets */; };
 		0E995E3B2563AD200037A163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E995E392563AD200037A163 /* LaunchScreen.storyboard */; };
+		0E995E442563AE3E0037A163 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0E995E432563AE3E0037A163 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E995E372563AD200037A163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E995E3A2563AD200037A163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E995E3C2563AD200037A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E995E432563AE3E0037A163 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0E995E372563AD200037A163 /* Assets.xcassets */,
 				0E995E392563AD200037A163 /* LaunchScreen.storyboard */,
 				0E995E3C2563AD200037A163 /* Info.plist */,
+				0E995E432563AE3E0037A163 /* Inceptionv3.mlmodel */,
 			);
 			path = "SeeFood-iOS13";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E995E332563AD1D0037A163 /* ViewController.swift in Sources */,
+				0E995E442563AE3E0037A163 /* Inceptionv3.mlmodel in Sources */,
 				0E995E2F2563AD1D0037A163 /* AppDelegate.swift in Sources */,
 				0E995E312563AD1D0037A163 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6ZP9VXF8B;
 				INFOPLIST_FILE = "SeeFood-iOS13/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6ZP9VXF8B;
 				INFOPLIST_FILE = "SeeFood-iOS13/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
